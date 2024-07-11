@@ -1,16 +1,20 @@
-export const Card = () => {
+export const Card = (props) => {
   return (
-    <div className="card p-0 rounded-4 overflow-hidden" style={{width: "18rem"}}>
-      <img src="https://img.freepik.com/foto-gratis/cerca-hermoso-gato_23-2149216326.jpg?size=626&ext=jpg&ga=GA1.1.183409394.1716342368&semt=ais_hybrid" className="w-100" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title">Card title</h5>
-        <p className="card-text">
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </p>
-        <a href="#" className="btn btn-primary">
-          Go somewhere
-        </a>
+    <div
+      className="card col-3 p-0 overflow-hidden rounded-3"
+      style={{ maxWidth: "225px", minWidth: "225px" }}
+    >
+      <div className="d-flex justify-content-center align-items-center" style={{width: "100%", height:"200px", backgroundColor: "aliceblue"}}>
+        <img
+          src={props.cardImage} style={{width: "100%"}}
+          alt="..."
+        />
+      </div>
+      <div className="card-body text-bg-dark">
+        <h5 className="card-title">{props.cardTitle}</h5>
+        <hr className="m-2"/>
+        <p className="card-text">{props.cardText}</p>
+        <a href="#" className="btn btn-outline-light">{props.buttonText}</a>
       </div>
     </div>
   );
