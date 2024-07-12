@@ -2,6 +2,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Jumbotron } from "./components/Jumbotron";
 import { Card } from "./components/Card";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -42,6 +43,12 @@ function App() {
           />
         </div>
       </div>
+      <Footer
+        spanText="Puedes encontrarme en..."
+        iLink="bi bi-linkedin" linkLink="https://www.linkedin.com/in/marco-urrutia-438b42288"
+        iX="bi bi-twitter-x" linkX="https://x.com/punk_ron"
+        iGitHub="bi bi-github" linkGitHub="https://github.com/marcourrutia"
+      />
     </div>
   );
 }

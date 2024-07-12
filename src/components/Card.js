@@ -10,11 +10,11 @@ export const Card = (props) => {
           alt="..."
         />
       </div>
-      <div className="card-body text-bg-dark">
+      <div className="card-body text-bg-dark d-flex flex-column">
         <h5 className="card-title">{props.cardTitle}</h5>
         <hr className="m-2"/>
         <p className="card-text">{props.cardText}</p>
-        <a href="#" className="btn btn-outline-light">{props.buttonText}</a>
+        <a href="#" className="btn btn-outline-light mt-auto">{props.buttonText}</a>
       </div>
     </div>
   );

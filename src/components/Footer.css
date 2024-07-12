@@ -1,0 +1,18 @@
+.headFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+span {
+    font-size: 18px;
+    font-family: monospace;
+}
+.rrssIcons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+}
+a {
+    color: white;
+}
