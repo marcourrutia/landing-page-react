@@ -45,9 +45,12 @@ function App() {
       </div>
       <Footer
         spanText="Puedes encontrarme en..."
-        iLink="bi bi-linkedin" linkLink="https://www.linkedin.com/in/marco-urrutia-438b42288"
-        iX="bi bi-twitter-x" linkX="https://x.com/punk_ron"
-        iGitHub="bi bi-github" linkGitHub="https://github.com/marcourrutia"
+        iLink="bi bi-linkedin"
+        linkLink="https://www.linkedin.com/in/marco-urrutia-438b42288"
+        iX="bi bi-twitter-x"
+        linkX="https://x.com/punk_ron"
+        iGitHub="bi bi-github"
+        linkGitHub="https://github.com/marcourrutia"
       />
     </div>
   );

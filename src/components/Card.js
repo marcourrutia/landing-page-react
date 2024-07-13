@@ -2,7 +2,7 @@ export const Card = (props) => {
   return (
     <div
       className="card col-3 p-0 overflow-hidden rounded-3"
-      style={{ maxWidth: "225px", minWidth: "225px" }}
+      style={{ maxWidth: "225px", minWidth: "225px", boxShadow: "10px 10px 8px grey" }}
     >
       <div className="d-flex justify-content-center align-items-center" style={{width: "100%", height:"200px", backgroundColor: "aliceblue"}}>
         <img

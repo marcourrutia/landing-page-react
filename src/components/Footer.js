@@ -2,7 +2,7 @@ import "./Footer.css";
 
 export const Footer = (props) => {
   return (
-    <footer className="text-bg-dark mt-3 p-3">
+    <footer className="text-bg-dark p-3">
       <div className="headFooter">
         <span>
           <strong>{props.spanText}</strong>
